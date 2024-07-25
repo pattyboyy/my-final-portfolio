@@ -1,11 +1,23 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
-function Project() {
+function Project({ title, image, deployedLink, githubLink }) {
   return (
-    <div>
-      <h2>Project</h2>
-      {/* Add your content here */}
-    </div>
+    <motion.div 
+      className="project"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <img src={image} alt={title} />
+      <h3>{title}</h3>
+      <div className="project-links">
+        <a href={deployedLink} target="_blank" rel="noopener noreferrer">View App</a>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </motion.div>
   );
 }
 

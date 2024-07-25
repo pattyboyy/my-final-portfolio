@@ -1,11 +1,15 @@
+// Navigation.jsx
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <div>
-      <h2>Navigation</h2>
-      {/* Add your content here */}
-    </div>
+    <nav>
+      <NavLink to="/about" activeClassName="active">About Me</NavLink>
+      <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
+      <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+      <NavLink to="/resume" activeClassName="active">Resume</NavLink>
+    </nav>
   );
 }
 
