@@ -15,6 +15,18 @@ function Portfolio() {
       deployedLink: "https://project2.com",
       githubLink: "https://github.com/yourusername/project2"
     },
+    {
+      title: "Project 2",
+      image: "/path/to/project2.jpg",
+      deployedLink: "https://project2.com",
+      githubLink: "https://github.com/yourusername/project2"
+    },
+    {
+      title: "Project 2",
+      image: "/path/to/project2.jpg",
+      deployedLink: "https://project2.com",
+      githubLink: "https://github.com/yourusername/project2"
+    },
     // Add more projects here
   ];
 

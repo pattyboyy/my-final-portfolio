@@ -1,16 +1,31 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
-function Project({ title, image, deployedLink, githubLink }) {
+function Resume() {
+  const proficiencies = [
+    "HTML5", "CSS3", "JavaScript (ES6+)", "React", "Node.js", 
+    "Express", "MongoDB", "SQL", "Git", "Responsive Web Design"
+  ];
+
   return (
-    <div className="project">
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <div className="project-links">
-        <a href={deployedLink} target="_blank" rel="noopener noreferrer">View App</a>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </div>
+    <section className="resume">
+      <h2>Resume</h2>
+      <a href="/path/to/your/resume.pdf" download className="resume-download">Download Resume</a>
+      <h3>Proficiencies</h3>
+      <ul className="proficiencies-list">
+        {proficiencies.map((skill, index) => (
+          <motion.li 
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+          >
+            {skill}
+          </motion.li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
-export default Project;
+export default Resume;
