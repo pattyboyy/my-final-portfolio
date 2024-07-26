@@ -4,10 +4,10 @@ import Project from './Project';
 function Portfolio() {
   const projects = [
     {
-      title: "Project 1",
-      image: "/path/to/project1.jpg",
-      deployedLink: "https://project1.com",
-      githubLink: "https://github.com/yourusername/project1"
+      title: "Biz-Magic: Personal Business Startup Helper",
+      image: "react-portfolio/src/assets/images/BizMagicScreenshot.png",
+      deployedLink: "https://business-startup-helper.onrender.com",
+      githubLink: "https://github.com/pattyboyy/biz-magic"
     },
     {
       title: "Project 2",
