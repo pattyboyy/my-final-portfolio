@@ -1,7 +1,9 @@
 import React from 'react';
 import Project from './Project';
 import bizMagicScreenshot from '../assets/images/BizMagicScreenshot.png';
-// Import other project images here
+import textEditorScreenshot from '../assets/images/texteditorscreenshot.png';
+import speakEzScreenshot from '../assets/images/Speakezscreenshot.png';
+import watermarkProScreenshot from '../assets/images/watermarkproscreenshot.png';
 
 function Portfolio() {
   const projects = [
@@ -12,22 +14,22 @@ function Portfolio() {
       githubLink: "https://github.com/pattyboyy/biz-magic"
     },
     {
-      title: "Project 2",
-      image: "/placeholder-image.jpg", // Use a placeholder if you don't have the image yet
-      deployedLink: "https://project2.com",
-      githubLink: "https://github.com/yourusername/project2"
+      title: "Personal Text Editor",
+      image: textEditorScreenshot,
+      deployedLink: "https://github.com/pattyboyy/my-text-editor",
+      githubLink: "https://github.com/pattyboyy/my-text-editor"
     },
     {
-      title: "Project 3",
-      image: "/placeholder-image.jpg",
-      deployedLink: "https://project3.com",
-      githubLink: "https://github.com/yourusername/project3"
+      title: "Local Speak Easy",
+      image: speakEzScreenshot,
+      deployedLink: "https://speak-ez.onrender.com",
+      githubLink: "https://github.com/aionarae/speak-ez"
     },
     {
-      title: "Project 4",
-      image: "/placeholder-image.jpg",
-      deployedLink: "https://project4.com",
-      githubLink: "https://github.com/yourusername/project4"
+      title: "Personal Watermark Pro",
+      image: watermarkProScreenshot,
+      deployedLink: "https://pattyboyy.github.io/personal-watermark-pro/",
+      githubLink: "https://github.com/pattyboyy/personal-watermark-pro"
     },
     // Add more projects here
   ];
