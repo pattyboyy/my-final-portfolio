@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a personal portfolio website built with React and Vite. It showcases my web development projects, skills, and provides information about me. The portfolio is designed to be visually appealing, responsive, and easy to navigate.
+This project is a personal portfolio website built with React and Vite. It showcases my web development  projects, skills, and provides information about me. The portfolio is designed to be visually appealing, responsive, and easy to navigate.
 
 ## Table of Contents
 
