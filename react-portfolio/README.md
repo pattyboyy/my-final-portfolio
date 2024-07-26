@@ -65,9 +65,7 @@ npm run build
 - CSS3 with custom properties
 - Netlify (for deployment)
 
-## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/your-username/react-portfolio/issues) if you want to contribute.
 
 ## License
 
@@ -75,8 +73,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Your Name - [patried7@gmail.com](mailto:patried7@gmail.com)
 
-Project Link: [https://github.com/your-username/react-portfolio](https://github.com/your-username/react-portfolio)
+Project Link: [https://github.com/pattyboyy/my-final-portfolio](https://github.com/pattyboyy/my-final-portfolio)
 
-Live Site: [https://your-portfolio-url.netlify.app](https://your-portfolio-url.netlify.app)
+Live Site: [https://tiny-taffy-c2f3ae.netlify.app/about](https://tiny-taffy-c2f3ae.netlify.app/about)
