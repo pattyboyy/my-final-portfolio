@@ -1,11 +1,15 @@
-// Header.jsx
 import React from 'react';
 import Navigation from './Navigation';
 
 function Header() {
   return (
     <header>
-      <h1>Patrick Riedinger</h1>
+      <div className="header-content">
+        <h1>
+          Patrick Riedinger
+          <span className="subtitle">Full Stack Developer</span>
+        </h1>
+      </div>
       <Navigation />
     </header>
   );

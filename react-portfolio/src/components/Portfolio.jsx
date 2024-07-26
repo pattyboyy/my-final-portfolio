@@ -4,6 +4,8 @@ import bizMagicScreenshot from '../assets/images/BizMagicScreenshot.png';
 import textEditorScreenshot from '../assets/images/texteditorscreenshot.png';
 import speakEzScreenshot from '../assets/images/Speakezscreenshot.png';
 import watermarkProScreenshot from '../assets/images/watermarkproscreenshot.png';
+import patsWeatherboardScreenshot from '../assets/images/patsweatherboard.png';
+import budgetBoardScreenshot from '../assets/images/loan.png';
 
 function Portfolio() {
   const projects = [
@@ -30,6 +32,18 @@ function Portfolio() {
       image: watermarkProScreenshot,
       deployedLink: "https://pattyboyy.github.io/personal-watermark-pro/",
       githubLink: "https://github.com/pattyboyy/personal-watermark-pro"
+    },
+    {
+      title: "Pat's Weatherboard",
+      image: patsWeatherboardScreenshot,
+      deployedLink: "https://pattyboyy.github.io/pats-weatherboard/",
+      githubLink: "https://github.com/pattyboyy/pats-weatherboard"
+    },
+    {
+      title: "Budget Board",
+      image: budgetBoardScreenshot,
+      deployedLink: "https://pattyboyy.github.io/group-budget-board/",
+      githubLink: "https://github.com/pattyboyy/group-budget-board"
     },
     // Add more projects here
   ];
