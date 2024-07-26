@@ -1,4 +1,5 @@
 # React Portfolio
+<img width="1066" alt="Screenshot 2024-07-25 at 7 30 07 PM" src="https://github.com/user-attachments/assets/4eeccee2-efd3-49ac-84b9-c1535b14f4ee">
 
 ## Description
 
