@@ -1,31 +1,33 @@
 import React from 'react';
 import Project from './Project';
+import bizMagicScreenshot from '../assets/images/BizMagicScreenshot.png';
+// Import other project images here
 
 function Portfolio() {
   const projects = [
     {
       title: "Biz-Magic: Personal Business Startup Helper",
-      image: "react-portfolio/src/assets/images/BizMagicScreenshot.png",
+      image: bizMagicScreenshot,
       deployedLink: "https://business-startup-helper.onrender.com",
       githubLink: "https://github.com/pattyboyy/biz-magic"
     },
     {
       title: "Project 2",
-      image: "/path/to/project2.jpg",
+      image: "/placeholder-image.jpg", // Use a placeholder if you don't have the image yet
       deployedLink: "https://project2.com",
       githubLink: "https://github.com/yourusername/project2"
     },
     {
-      title: "Project 2",
-      image: "/path/to/project2.jpg",
-      deployedLink: "https://project2.com",
-      githubLink: "https://github.com/yourusername/project2"
+      title: "Project 3",
+      image: "/placeholder-image.jpg",
+      deployedLink: "https://project3.com",
+      githubLink: "https://github.com/yourusername/project3"
     },
     {
-      title: "Project 2",
-      image: "/path/to/project2.jpg",
-      deployedLink: "https://project2.com",
-      githubLink: "https://github.com/yourusername/project2"
+      title: "Project 4",
+      image: "/placeholder-image.jpg",
+      deployedLink: "https://project4.com",
+      githubLink: "https://github.com/yourusername/project4"
     },
     // Add more projects here
   ];

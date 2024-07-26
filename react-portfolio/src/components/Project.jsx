@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function Project({ title, image, description, deployedLink, githubLink }) {
+function Project({ title, image, deployedLink, githubLink }) {
   return (
     <motion.div 
       className="project"
@@ -14,7 +14,6 @@ function Project({ title, image, description, deployedLink, githubLink }) {
       <img src={image} alt={title} />
       <div className="project-content">
         <h3>{title}</h3>
-        <p>{description}</p>
         <div className="project-links">
           <a href={deployedLink} target="_blank" rel="noopener noreferrer">View App</a>
           <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
